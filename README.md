@@ -1,2 +1,2 @@
 # matts-discord-bot
-DiscordJS bot (First what i ever made)
+Empty for now, code will be added later
