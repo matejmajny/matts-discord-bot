@@ -32,7 +32,7 @@ client.on('interactionCreate', async interaction => {
 		await command.execute(interaction);
 	} catch (error) {
 		console.error(error);
-		await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
+		await interaction.reply({ content: 'Error! Matthew does not know to code properly lol!', ephemeral: true });
 	}
 });
 
@@ -45,7 +45,7 @@ client.on("ready", () => {
 });
 
 client.on("ready", () => {
-    client.user.setPresence({ activities: [{ name: 'with errors and JS' }], status: 'idle' });
+    client.user.setPresence({ activities: [{ name: 'with errors and JS' }], status: 'online' });
 })
 
 client.on("interactionCreate", interaction => {
