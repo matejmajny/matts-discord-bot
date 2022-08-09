@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require("discord.js");
-const randomPuppy = require("random-puppy");
+const { getImage } = require('random-reddit');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -7,14 +7,14 @@ module.exports = {
         .setDescription("Replies with random image of puppy!"),
     
     async execute(interaction) {
-        puppyImg = await randomPuppy()
+        puppyImg = await getImage("PuppySmiles")
         
         await interaction.reply({
             embeds: [
                 {
                     color: 0xff4816,
-                    title: "**Puppy/Dog image**",
-                    description: "Generated using random-puppy",
+                    title: "**Puppy image**",
+                    description: "Image from r/PuppySmiles.",
                     image: {
                         url: puppyImg,
                     },

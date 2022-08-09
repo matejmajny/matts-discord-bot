@@ -32,7 +32,16 @@ client.on('interactionCreate', async interaction => {
 		await command.execute(interaction);
 	} catch (error) {
 		console.error(error);
-		await interaction.reply({ content: 'Error! Matthew does not know to code properly lol!', ephemeral: true });
+		await interaction.reply({
+			embeds: [
+                {
+                    color: 0xff0000,
+                    title: "**Error occured!**",
+                    description: "There was an error while executing command",
+                    ephermal: true,
+                },
+            ],
+		});
 	}
 });
 
@@ -46,6 +55,7 @@ client.on("ready", () => {
 
 client.on("ready", () => {
     client.user.setPresence({ activities: [{ name: 'with errors and JS' }], status: 'online' });
+	console.log("Bot RPC was set succesfully.")
 })
 
 client.on("interactionCreate", interaction => {

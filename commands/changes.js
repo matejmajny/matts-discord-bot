@@ -11,26 +11,26 @@ module.exports = {
                 {
                     color: 0xff4816,
                     title: "**Changes**",
-                    description: "Current version: **v1.1\n **",
+                    description: "Current version: **v1.2\n **",
                     thumbnail: {
                         url: client.user.displayAvatarURL,
                       },
                       fields: [
                         {
                             name: "Basic info",
-                            value: "Version: v1.1\nDate of release: 02/8/2022\nState: in development",
+                            value: "Version: v1.1\nDate of release: 09/8/2022\nState: in development",
                         },
                         {
                             name: "What is new?",
-                            value: "-reworked deploying script\n-added: help, yoda, dates and test",
+                            value: "-reworked deploying script\n-added: timeoutme\n-added random-reddit module\n-added embed to error message",
                         },
                         {
                             name: "What got removed?",
-                            value: "-nothing",
+                            value: "-got rid of useless randomPuppy module.",
                         },
                         {
                             name: "**Disclaimer!**",
-                            value: "Bot still in very early development stages"
+                            value: "Bot still in development."
                         }
                       ]
                 },
