@@ -22,15 +22,11 @@ module.exports = {
                         },
                         {
                             name: "What is new?",
-                            value: "-reworked deploying script\n-added: timeoutme\n-added random-reddit module\n-added embed to error message",
+                            value: "-added some new info to about page\n-added: magisk, punish\n-added random-reddit module\n-added embed to error message",
                         },
                         {
                             name: "What got removed?",
-                            value: "-got rid of useless randomPuppy module.",
-                        },
-                        {
-                            name: "**Disclaimer!**",
-                            value: "Bot still in development."
+                            value: "-nothing",
                         }
                       ]
                 },

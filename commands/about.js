@@ -6,6 +6,7 @@ module.exports = {
         .setDescription("Shows the information about bot"),
     async execute(interaction) {
         const { client } = interaction;
+        let serverNumber = await interaction.client.guilds.cache.size
         await interaction.reply({
             embeds: [
                 {
@@ -31,6 +32,14 @@ module.exports = {
                         {
                             name: "GitHub repository",
                             value: "[https://github.com/matejmajny/matts-discord-bot](https://github.com/matejmajny/matts-discord-bot)"
+                        },
+                        {
+                            name: "Number of commands:",
+                            value: "14"
+                        },
+                        {
+                            name: "Number of servers joined:",
+                            value: serverNumber
                         }
                       ]
                 },

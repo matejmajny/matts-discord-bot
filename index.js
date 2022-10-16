@@ -49,7 +49,8 @@ client.on('interactionCreate', async interaction => {
 // Events
 
 client.on("ready", () => {
-    console.log("Bot has succesfully booted!\n")
+    console.log("Bot has succesfully booted!")
+	console.log("")
 });
 
 client.on("ready", () => {
