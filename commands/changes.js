@@ -18,15 +18,15 @@ module.exports = {
                       fields: [
                         {
                             name: "Basic info",
-                            value: "Version: v1.1\nDate of release: 09/8/2022\nState: in development",
+                            value: "Version: v1.1\nDate of release: 1/11/2022\nState: in development",
                         },
                         {
                             name: "What is new?",
-                            value: "-added some new info to about page\n-added: magisk, punish\n-added random-reddit module\n-added embed to error message",
+                            value: "-added some new info to about page\n-added: meme\n-fixed some things in punish command",
                         },
                         {
                             name: "What got removed?",
-                            value: "-nothing",
+                            value: "-dates command (useless)",
                         }
                       ]
                 },
