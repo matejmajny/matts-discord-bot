@@ -1,5 +1,4 @@
 const fetch = require("node-fetch");
-var url = "https://api.github.com/repos/topjohnwu/Magisk/releases/latest";
 const { SlashCommandBuilder } = require("discord.js");
 
 module.exports = {

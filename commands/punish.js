@@ -58,7 +58,7 @@ module.exports = {
                 embeds: [
                     {
                         color: 0xff4816,
-                        title: `**Enjoy your 5 minutes of ${punishment.toLowerCase()}**`,
+                        title: `**Enjoy your ${punishment.toLowerCase()}**`,
                         description: `Bot succesfully ${punishment.toLowerCase()}ed you!`,
                     }
                 ]
