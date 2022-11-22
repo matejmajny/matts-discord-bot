@@ -11,22 +11,22 @@ module.exports = {
                 {
                     color: 0xff4816,
                     title: "**Changes**",
-                    description: "Current version: **v1.2\n **",
+                    description: "Current version: **v1.3\n **",
                     thumbnail: {
                         url: client.user.displayAvatarURL,
                       },
                       fields: [
                         {
                             name: "Basic info",
-                            value: "Version: v1.1\nDate of release: 1/11/2022\nState: in development",
+                            value: "Version: v1.1\nDate of release: 22/11/2022",
                         },
                         {
                             name: "What is new?",
-                            value: "-added some new info to about page\n-added: meme\n-fixed some things in punish command",
+                            value: "-ghrepo command\n-consolelog command\n-pfp command",
                         },
                         {
                             name: "What got removed?",
-                            value: "-dates command (useless)",
+                            value: "-nothing",
                         }
                       ]
                 },

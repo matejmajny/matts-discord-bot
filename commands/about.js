@@ -1,4 +1,5 @@
 const { SlashCommandBuilder } = require("discord.js")
+const  fs  = require("fs");
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -6,6 +7,14 @@ module.exports = {
         .setDescription("Shows the information about bot"),
     async execute(interaction) {
         const { client } = interaction;
+
+        function commandNumber() {
+            var files = fs.readdirSync("\commands")
+            
+            var returnvalue = Object.keys(files).length
+            return returnvalue
+        }
+
         let serverNumber = await interaction.client.guilds.cache.size
         await interaction.reply({
             embeds: [
@@ -31,11 +40,11 @@ module.exports = {
                         },
                         {
                             name: "GitHub repository",
-                            value: "[https://github.com/matejmajny/matts-discord-bot](https://github.com/matejmajny/matts-discord-bot)"
+                            value: "[https://github.com/matejmajny/matts-discord-bot](https://github.com/matejmajny/matts-discord-bot)",
                         },
                         {
                             name: "Number of commands:",
-                            value: "14"
+                            value: `${await commandNumber()}`,
                         },
                         {
                             name: "Number of servers joined:",

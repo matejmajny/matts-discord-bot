@@ -1,9 +1,6 @@
 const fetch = require("node-fetch");
 const { SlashCommandBuilder } = require("discord.js");
 
-// work in progress ok?
-
-
 module.exports = {
     data: new SlashCommandBuilder()
         .setName("meme")
