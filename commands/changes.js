@@ -11,18 +11,18 @@ module.exports = {
                 {
                     color: 0xff4816,
                     title: "**Changes**",
-                    description: "Current version: **v1.3\n **",
+                    description: "Current version: **v1.5\n **",
                     thumbnail: {
                         url: client.user.displayAvatarURL,
                       },
                       fields: [
                         {
                             name: "Basic info",
-                            value: "Version: v1.1\nDate of release: 22/11/2022",
+                            value: "Version: v1.1\nDate of release: 09/12/2022",
                         },
                         {
                             name: "What is new?",
-                            value: "-ghrepo command\n-consolelog command\n-pfp command",
+                            value: "-filelog command",
                         },
                         {
                             name: "What got removed?",
