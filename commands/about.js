@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require("discord.js")
-const  fs  = require("fs");
+const fs = require("fs");
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -10,7 +10,6 @@ module.exports = {
 
         function commandNumber() {
             var files = fs.readdirSync("\commands")
-            
             var returnvalue = Object.keys(files).length
             return returnvalue
         }
@@ -28,7 +27,7 @@ module.exports = {
                       fields: [
                         {
                           name: "Owner",
-                          value: "[matejmajny#2639](https://matejmajny.tk)",
+                          value: "[matejmajny#2639](https://matejmajny.gq)",
                         },
                         {
                             name: "Library",

@@ -46,7 +46,7 @@ module.exports = {
                     fields: [
                         {
                            name: "Repository owner:",
-                           value: jsonResponseApi.owner.login
+                           value: jsonResponseApi.owner.login,
                         },
                         {
                             name: "Fork:",
@@ -54,7 +54,7 @@ module.exports = {
                         },
                         {
                             name: "Last commit:",
-                            value: `***Author:*** ${jsonResponseCommit[0].author.login},`
+                            value: `***Author:*** ${jsonResponseCommit[0].author.login}\n***Message:*** ${jsonResponseCommit[0].commit.message}`,
                         },
                         {
                             name: "Latest release:",

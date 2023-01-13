@@ -12,7 +12,7 @@ module.exports = {
     async execute(interaction) {
         var text = await interaction.options.getString("text")
         var text = `[${interaction.user.tag}]: ${text}\n`
-        fs.appendFileSync("/somewhere/botlogs.txt", text)
+        fs.appendFileSync("/var/www/simple-file-manager/botlogs.txt", text)
 
         interaction.reply(
             {

@@ -7,7 +7,7 @@ module.exports = {
         .setDescription("Fetches random meme from reddit!"),
     
     async execute(interaction) {
-        const response = await fetch(`https://meme-api.herokuapp.com/gimme`)
+        const response = await fetch(`https://meme-api.com/gimme`)
         const jsonResponse = await response.json();
         await interaction.reply({
                 embeds: [

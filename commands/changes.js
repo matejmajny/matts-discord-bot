@@ -22,7 +22,7 @@ module.exports = {
                         },
                         {
                             name: "What is new?",
-                            value: "-filelog command",
+                            value: "-ytthumb command\n-fixed ghrepo and meme commands",
                         },
                         {
                             name: "What got removed?",

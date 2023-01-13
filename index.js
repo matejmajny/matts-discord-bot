@@ -50,7 +50,6 @@ client.on('interactionCreate', async interaction => {
 
 client.on("ready", () => {
     console.log("Bot has succesfully booted!")
-	console.log("")
 });
 
 client.on("ready", () => {
