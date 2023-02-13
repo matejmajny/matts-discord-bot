@@ -1,14 +1,23 @@
-# Info
-- being mantained (if i rarely get some idea)
-- fully opensource (except my tokens and stuff)
-- 24/7 on
+# Matts Discord Bot 🤖
+Simple Discord bot with few useful (so basically useless) functions.
 
-# Libraries used
+# Abilities 🔍
+- 24/7 uptime (hosted on Oracle Cloud)
+- "frequent" updates
+- fully FOSS (except tokens)
+
+# Libraries 📦
 - [discord.js v14](https://discord.js.org/#/)
 - [random-reddit](https://www.npmjs.com/package/random-reddit)
 - [node-fetch](https://www.npmjs.com/package/node-fetch)
 - [xmlhttprequest](https://www.npmjs.com/package/xmlhttprequest)
 - [unique-random-array](https://www.npmjs.com/package/unique-random-array) (probably not even used in code anymore, but maybe yes)
 
-# Comtributors
+# Having issues or a suggestion ❗❓
+Have you found a bug or want to suggest some idea? Create a **issue** or **contribute**.
+
+# Contribute
+If you want to contribute create a pull request which I will review and add (if everything is allright and i like it)
+
+# Comtributors 💻
 - [dumpydev](https://github.com/dumpydev/)
