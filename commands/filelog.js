@@ -25,7 +25,7 @@ module.exports = {
                         fields: [
                             {
                                name: "File URL:",
-                               value: "https://files.matejmajny.gq/botlogs.txt"
+                               value: "https://files.matejmajny.me/botlogs.txt"
                             },
                             {
                                 name: "Message:",
