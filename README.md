@@ -3,7 +3,7 @@ Simple Discord bot with few useful (so basically useless) functions.
 
 # Abilities 🔍
 - 24/7 uptime (hosted on Oracle Cloud)
-- "frequent" updates
+- "(not so) frequent" updates
 - fully FOSS (except tokens)
 
 # Libraries 📦
